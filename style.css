@@ -1,0 +1,60 @@
+body {
+    background: black;
+    color: brown;
+    margin: 8px;
+    font-family: Jura;
+    font-size: 150%;
+}
+
+header {
+    border-bottom: solid 5px red;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.principal {
+    border-bottom: solid 5px red; 
+    background: rgb(115 35 41 / 58%);
+    padding-bottom: 80px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.txto {
+    margin-right: 10%;
+    font-weight: 500;
+}
+
+img {
+    height: 200px;
+}
+
+.bllsht {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.hell {
+    border-bottom: solid 5px red; 
+    background: rgb(115 35 41 / 58%);
+    padding-bottom: 80px;
+    padding-top: 40px;
+    justify-content: center;
+    font-weight: 100;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hell img {
+    opacity: 1.0;
+
+}
+
+.hell img:hover {
+    opacity: 0.5;
+}
