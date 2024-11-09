@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="pass ativo" id="pass-0">
+            <p>
+                Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade
+                perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para
+                encontrar essa cidade e eu decidi segui-las!
+            </p>
+            <button class="btn-next" data-next="1" id="bg1">Rio de Janeiro</button>
+            <button class="btn-next" data-next="2" id="bg2">Pernambuco</button>
+        </div>
+        <div class="pass" id="pass-1">
+            <p>
+                Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a
+                primeira pista.
+            </p>
+            <button class="btn-next" data-next="3" id="bg3">Procurar a pista no topo do pico</button>
+            <button class="btn-next" data-next="4" id="bg4">Desistir e voltar para casa</button>
+        </div>
+        <div class="pass" id="pass-2">
+            <p>
+                Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para
+                localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos
+                da cidade. Por qual você começa?
+            </p>
+            <button class="btn-next" data-next="5" id="bg5">Investigar as Igrejas abandonadas</button>
+            <button class="btn-next" data-next="6" id="bg6">Observar as praias</button>
+        </div>
+        <div class="pass" id="pass-3">
+            <p>
+                No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Amazonas.
+            </p>
+            <button class="btn-next" data-next="1" id="bg7">Seguir para o Amazonas</button>
+        </div>
+        <div class="pass" id="pass-4">
+            <p>
+                Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.
+            </p>
+            <button class="btn-next" data-next="0">~Game Over~</button>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
